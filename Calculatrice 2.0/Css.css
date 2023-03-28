@@ -1,0 +1,151 @@
+html, body{
+	height: 90%;
+	margin: 0;
+}
+
+body{
+	background-color: #152238;
+}
+
+#contour{
+	background-color: black;
+	width: 33%;
+	height: 100%;
+	margin-left: 33%;
+	margin-top: 4%;
+	padding: 0.8% 0.5% 0.5% 0.8%;
+	border-radius: 10px;
+}
+
+#calculette{
+	width: 99%;
+	height: 99%;
+	background-color: #DC8449;
+	border-radius: 10px;
+}
+
+#equation{
+	padding-top: 5%;
+	padding-left: 2%;
+	float: left;
+	height: 10%;
+	width:45%;
+	font-size: 150%;
+	font-weight: bold;
+	overflow:hidden;
+	text-align: center;
+}
+
+#egal{
+	padding-top: 5%;
+	float: left;
+	height: 10%;
+	width:5%;
+	margin-left: 2.5%;
+	font-size: 150%;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+#resultat{
+	padding-top: 5%;
+	float: left;
+	height: 10%;
+	width:45%;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	overflow:hidden;
+}
+
+#contourEcran{
+	padding: 5% 2.5% 5% 2.5%;
+	clear: left;
+	height: 15%;
+	width: 95%;
+	background-color: #FDD36A;
+}
+
+#ecran{
+	padding-top: 5%;
+	width: 100%;
+	height: 75%;
+	background-color: #D5F3FE;
+	overflow:hidden;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#keypad{
+	height: 61.5%;
+	background-color: #BE6DB7;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+button{
+	display: inline-block;
+	background-color: #BE6DB7;
+	float: left;
+	height: 16.7%;
+	width: 25%;
+	border: 1px solid;
+}
+
+.symbol{
+	background-color: #DC8449;
+}
+
+.remove{
+	background-color: red;
+}
+
+#miamBouton{
+	background-image: url("miamButton.png");
+	background-size: 100% 100%;
+}
+
+#quackBouton{
+	background-image: url("RubberDucky.png");
+	background-size: 100% 100%;
+}
+
+button:hover{
+	background-color: #522E92;
+}
+
+.symbol:hover{
+	background-color: #B33D18;
+}
+
+.remove:hover{
+	background-color: #CC0000;
+}
+
+button:active{
+	background-color: #673AB7;
+	text-shadow: -1px -1px 0px #777, -1px -1px 0px #777;
+	box-shadow: inset 1px 1px 4px #222;
+	transform: translateY(1px);
+}
+
+.symbol:active{
+	background-color: #802C11;
+}
+
+.remove:active{
+	background-color: #990000;
+}
+
+#boutonEgal{
+	width: 50%;
+	background-color: lime;
+}
+
+#boutonEgal:hover{
+	background-color: #66d801;
+}
+
+#boutonEgal:active{
+	background-color: lightgreen;
+}
